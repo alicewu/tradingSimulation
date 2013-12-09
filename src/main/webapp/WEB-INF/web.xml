@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	metadata-complete="false" version="3.0">
+
+	<servlet>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/admin/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ClientServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.ClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClientServlet</servlet-name>
+		<url-pattern>/client/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/order/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NewsServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.NewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewsServlet</servlet-name>
+		<url-pattern>/news/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaleServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.SaleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaleServlet</servlet-name>
+		<url-pattern>/sale/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MetadataServlet</servlet-name>
+		<servlet-class>com.github.syqnew.servlets.MetadataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MetadataServlet</servlet-name>
+		<url-pattern>/metadata/*</url-pattern>
+	</servlet-mapping>
+</web-app>
