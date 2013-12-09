@@ -1,4 +1,4 @@
-package com.github.syqnew.dao;
+package com.github.alicewu.dao;
 
 import java.util.List;
 
