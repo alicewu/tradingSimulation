@@ -5,7 +5,7 @@
 
 	<servlet>
 		<servlet-name>AdminServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.AdminServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.AdminServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AdminServlet</servlet-name>
@@ -14,7 +14,7 @@
 
 	<servlet>
 		<servlet-name>ClientServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.ClientServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.ClientServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ClientServlet</servlet-name>
@@ -23,7 +23,7 @@
 
 	<servlet>
 		<servlet-name>OrderServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.OrderServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.OrderServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>OrderServlet</servlet-name>
@@ -32,7 +32,7 @@
 
 	<servlet>
 		<servlet-name>NewsServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.NewsServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.NewsServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>NewsServlet</servlet-name>
@@ -41,7 +41,7 @@
 	
 	<servlet>
 		<servlet-name>SaleServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.SaleServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.SaleServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SaleServlet</servlet-name>
@@ -50,7 +50,7 @@
 	
 	<servlet>
 		<servlet-name>MetadataServlet</servlet-name>
-		<servlet-class>com.github.syqnew.servlets.MetadataServlet</servlet-class>
+		<servlet-class>com.github.alicewu.servlets.MetadataServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MetadataServlet</servlet-name>
