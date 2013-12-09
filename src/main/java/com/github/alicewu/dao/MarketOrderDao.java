@@ -2,7 +2,7 @@ package com.github.alicewu.dao;
 
 import java.util.List;
 
-import com.github.syqnew.domain.MarketOrder;
+import com.github.alicewu.domain.MarketOrder;
 
 public interface MarketOrderDao extends BaseDao<MarketOrder> {
 
