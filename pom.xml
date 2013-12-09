@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.alicewu</groupId>
-	<artifactId>serverClientIntegration</artifactId>
+	<artifactId>tradingSimulation</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>serverClientIntegration Maven Webapp</name>
+	<name>tradingSimulation Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
@@ -55,7 +55,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>serverClientIntegration</finalName>
+		<finalName>tradingSimulation</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
