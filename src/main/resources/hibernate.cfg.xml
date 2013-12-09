@@ -28,13 +28,13 @@
          
         <property name="hbm2ddl.auto">validate</property>
   
-        <mapping class="com.github.syqnew.domain.MarketState" />
-        <mapping class="com.github.syqnew.domain.Client" />
-        <mapping class="com.github.syqnew.domain.MarketOrder" />
-        <mapping class="com.github.syqnew.domain.Quote" />
-        <mapping class="com.github.syqnew.domain.News" />
-        <mapping class="com.github.syqnew.domain.Sale" />             
-        <mapping class="com.github.syqnew.domain.Metadata" /> 
+        <mapping class="com.github.alicewu.domain.MarketState" />
+        <mapping class="com.github.alicewu.domain.Client" />
+        <mapping class="com.github.alicewu.domain.MarketOrder" />
+        <mapping class="com.github.alicewu.domain.Quote" />
+        <mapping class="com.github.alicewu.domain.News" />
+        <mapping class="com.github.alicewu.domain.Sale" />             
+        <mapping class="com.github.alicewu.domain.Metadata" /> 
           
     </session-factory>
 </hibernate-configuration>
