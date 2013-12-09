@@ -1,4 +1,4 @@
-package com.github.syqnew;
+package com.github.alicewu;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
