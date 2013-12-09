@@ -67,5 +67,4 @@ CREATE TABLE Metadata (
 
 INSERT INTO Metadata VALUE (1, 0,100000000,0,0,0,0,0,0,0);
 
-
 -- INSERT INTO Metadata VALUE (1, 45,15,20,0,0,0,0,0,0);
