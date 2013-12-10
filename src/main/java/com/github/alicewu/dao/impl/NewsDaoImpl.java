@@ -23,3 +23,4 @@ public class NewsDaoImpl extends BaseDaoImpl<News> implements NewsDao {
 	}
 
 }
+ 
