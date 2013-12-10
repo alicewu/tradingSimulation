@@ -10,3 +10,4 @@ public class MetadataDaoImpl extends BaseDaoImpl<Metadata> implements MetadataDa
 	}
 
 }
+ 
