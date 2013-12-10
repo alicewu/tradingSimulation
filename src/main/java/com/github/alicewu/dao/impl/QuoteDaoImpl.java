@@ -28,3 +28,4 @@ public class QuoteDaoImpl extends BaseDaoImpl<Quote> implements QuoteDao {
 	}
 
 }
+ 
