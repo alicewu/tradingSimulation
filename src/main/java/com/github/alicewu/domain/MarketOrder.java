@@ -1,9 +1,9 @@
 package com.github.alicewu.domain;
 
 import javax.persistence.Entity;
-
+ 
 /**
- * This table actually contains both market and limit orders. However, order is a reserved word in mySQL.
+ * This table contains both market and limit orders, but order is a reserved word in mySQL.
  */
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
