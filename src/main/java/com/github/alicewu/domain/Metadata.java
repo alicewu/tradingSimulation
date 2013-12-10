@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Version;
 
-@Entity
+@Entity 
 public class Metadata implements BaseObject {
 
 	@Id
