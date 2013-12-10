@@ -1,5 +1,5 @@
 package com.github.alicewu.dao.impl;
-
+ 
 import java.util.List;
 
 import org.hibernate.Query;
